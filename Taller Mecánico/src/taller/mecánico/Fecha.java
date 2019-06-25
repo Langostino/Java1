@@ -1,7 +1,7 @@
 package taller.mecánico;
 
 public class Fecha {
-    int mes,dia,anyo;
+    private final int mes,dia,anyo;
     String Array[]={"Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre",};
 
     public Fecha(int dia, int mes, int anyo){
@@ -51,6 +51,9 @@ public class Fecha {
         }else{System.out.println("La fecha es: "+dia+"/"+mes+"/"+anyo);
         }
     }
+        public void setFecha(Fecha f){
+            
+        }
             public static void main(String[] args) {
         Fecha fecha1=new Fecha(29,13,1990);
         fecha1.getFecha(); 

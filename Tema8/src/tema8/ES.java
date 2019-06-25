@@ -21,7 +21,7 @@ public class ES {
     
     public static void main(String[] args) throws IOException{
         String prueba;
-        prueba=leeDeTeclado("Hola bro contame bro");
-        System.out.println(prueba);
+        prueba=leeDeTeclado("Hola cuentame");
+        System.out.println(prueba.toUpperCase());
     }        
 }
